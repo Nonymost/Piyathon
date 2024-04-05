@@ -1,3 +1,5 @@
+# List / Tuple / Set / Dictionary
+
 list = [3,23,234] #list are mutable and can be assigned different types of data value.
 list[2] = 3455
 
@@ -17,13 +19,9 @@ dictionary = {
 }
 
 list.sort()
-for l in list:
-    print(l)
+# for l in list:
+#     print(l)
 
     
-print(list)
-# print(set)
 # print(list)
-# print(tuple)
-# print(dictionary["class"])
-# print(dir([12,33,4]))
+print(dictionary["name"])

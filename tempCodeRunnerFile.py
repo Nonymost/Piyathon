@@ -1,4 +1,5 @@
-if(set == setAnother):
-#     print("true")
-# else:
-#     print("False")
+for l in list:
+#     print(l)
+
+    
+# print(list)
