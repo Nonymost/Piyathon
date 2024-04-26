@@ -35,9 +35,13 @@ lis.append("!")
 # print(lis)   #--> outputs this , is , not , a , test , !
 
 l.extend(lis) #--> extends list by appending the values of another iterables(list,tuple,dictionary,sets)
-print(l)
 
 lis.remove("not") #--> outputs this , is , a , test , !
 lis.pop()         #--> outputs this , is , a , test 
 lis.pop(1)        #--> outputs this , a , test
-print(lis)
+
+del lis[2]
+# del lis
+
+lis.clear()
+
