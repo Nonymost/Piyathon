@@ -9,18 +9,19 @@ l = list(("ram","shyam","hari"))
 
 #negative indexing --> starts from the end 
 neg = l[-1] , l[-2] 
-# print(neg)
+print(neg)
+# print(fruits)
 
 #range of index
 ind = l[-3:-1]
-# print(ind)
+print(ind)
 # print("banana" in l)
 
 #changing values in a list 
 l[0] = "abhinav" 
 
-l[0:2] = ["sabirn" , "abhirn" , "devrin"]
-# print(l)
+l[1:2] = ["sabirn" , "abhirn" , "devrin"]
+print(l)
 l[0:2] = ["haerin"]
 # print(len(l))
 # print(l)
@@ -38,10 +39,12 @@ l.extend(lis) #--> extends list by appending the values of another iterables(lis
 
 lis.remove("not") #--> outputs this , is , a , test , !
 lis.pop()         #--> outputs this , is , a , test 
-lis.pop(1)        #--> outputs this , a , test
-
+print(lis.pop(1))        #--> outputs this , a , test
+print(lis)
 del lis[2]
 # del lis
-
+print(lis)
 lis.clear()
+l.clear()
+print(l)
 
