@@ -1,7 +1,7 @@
-list = ["banana","strawberry","mango","apple"]
+list1 = ["banana","strawberry","mango","apple"]
 intList = [1,6,2,7,3]
 
-newlist = [i+"yes" for i in list if "t" in i]
+newlist = [i+"yes" for i in list1 if "t" in i]
 # print(newlist)
 
 intList = [2,23,4,1,2]
@@ -14,7 +14,16 @@ newIntList = [i for i in intList]
 UpperNewList = [i.upper() for i in newlist]
 # print(UpperNewList)
 
-list.sort(key = str.upper)
+list1.sort(key = str.upper)
 intList.sort(reverse = True)
-print(intList)
-print(list)
+
+
+# l = list(list1)
+l = list1.copy()
+l2 = list1 + intList
+
+l.extend(l2)
+print(l)
+print((l.count(4)))
+
+print(list1.index("apple"))
