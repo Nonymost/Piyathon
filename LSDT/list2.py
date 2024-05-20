@@ -1,3 +1,4 @@
+
 list1 = ["banana","strawberry","mango","apple"]
 intList = [1,6,2,7,3]
 
@@ -16,14 +17,21 @@ UpperNewList = [i.upper() for i in newlist]
 
 list1.sort(key = str.upper)
 intList.sort(reverse = True)
-
+# n = input("ENTER:")
 
 # l = list(list1)
 l = list1.copy()
 l2 = list1 + intList
 
 l.extend(l2)
-print(l)
-print((l.count(4)))
+# print(l)
+# print((l.count(4)))
 
-print(list1.index("apple"))
+# print(list1.index("apple"))
+
+test = "this is a\n test "
+def ret(t):
+     return t
+
+print(4*2 , "HEllo")
+     
