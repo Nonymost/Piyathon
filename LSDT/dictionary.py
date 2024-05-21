@@ -61,6 +61,18 @@ dict2.update({"name":"Rames","class":"jj"})
 dict1 = dict2.copy()
 dict3 = dict(dict1)
 
+dict3.clear()
+
+dict3 = {           #dictionary nesting
+    "name" : "Ramesh",
+    "list" : {
+        "fruits" : ["Apple","oranges","mangoes"],
+        "drink" : ["softdrink","harddrink","juice"]
+    }
+}
+
+# print(dict3["list"]["fruits"])
+# print(dict3.get("name"))
 
 
 
